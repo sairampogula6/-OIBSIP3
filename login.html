@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container" id="login-page">
+        <h2>Login</h2>
+        <form >
+            <input type="text" id="username" placeholder="Username" required><br><br>
+        <input type="password" id="password" placeholder="Password" required><br><br>
+        <input type="submit" value="Login">
+        </form>
+        <div class="message" id="login-message"></div>
+    </div>
+    <div class="container" id="registration-page" style="display: none;">
+        <h2>Register</h2>
+        <form>
+            <input type="text" id="username" placeholder="Username" required><br><br>
+        <input type="password" id="password" placeholder="Password" required><br><br>
+        <input type="password" id="confirm_password" placeholder="Confirm Password" required><br><br>
+        <input type="submit" value="Register">
+        </form>
+        <div class="message" id="registration-message"></div>
+    </div>
+    <p>Don't have an account? <a href="register.html" id="registration-link">Register</a></p>
+    <script src="script.js"></script>
+</body>
+</html>
